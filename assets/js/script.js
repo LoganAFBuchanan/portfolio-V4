@@ -5,7 +5,10 @@ window.onload = function(){
   var links = document.getElementsByTagName('a');
 
   for( var i=0; i < links.length; i ++ ){
-    links[i].onclick = clickHandler;
+    //Avoid links that open in a new tab
+    if(links[i].target != "_blank"){
+      links[i].onclick = clickHandler;
+    }
   }
 
   function clickHandler(event) {
