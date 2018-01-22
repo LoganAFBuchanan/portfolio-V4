@@ -15,8 +15,10 @@
 
     <link rel="stylesheet" href="assets/css/normalize.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Slabo+13px|Bree+Serif" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+
+    <link rel="stylesheet" href="assets/css/animations.css" type="text/css">
     <link rel="stylesheet" href="assets/css/grids.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
 
   </head>
   <body>
@@ -30,16 +32,16 @@
         <nav>
           <h2>Experience & Projects</h2>
           <ul>
-            <a href="safe.html">
-              <li>
-                <h3>Safe Software<i class="material-icons">&#xE315;</i></h3>
-                <p>Front End Developer/Designer | Internship | Summer 2016</p>
-              </li>
-            </a>
             <a href="#">
               <li>
                   <h3>Beedie School of Business<i class="material-icons">&#xE315;</i></h3>
                   <p>Front End Developer/Designer | Internship | Summer 2017</p>
+              </li>
+            </a>
+            <a href="safe.html">
+              <li>
+                <h3>Safe Software<i class="material-icons">&#xE315;</i></h3>
+                <p>Front End Developer/Designer | Internship | Summer 2016</p>
               </li>
             </a>
             <a href="#">
@@ -71,7 +73,7 @@
           <h2>Overview</h2>
           <p>I designed and built web pages for the website Safe.com. Built tools for Wordpress (using PHP) which allowed other members of the marketing team to create pages through templates that fit the site’s style guidelines. Additionally, I redesigned and implemented new customer feedback forms that were easier to understand and complete. The following are two of the several projects I completed while working at Safe.</p>
 
-          <h2>Project 1: Customer Survey</h2>
+          <h2>Project 1: Transformer Gallery</h2>
           <figure>
             <img src="http://placehold.it/500x350/" alt="Transformer Gallery Final">
             <figcaption>The Transformer Gallery after the re-design</figcaption>
@@ -80,7 +82,7 @@
           <p>The transformer gallery is a section of Safe.com that lists all of the transformer components of Safe’s main software product FME. This page was used frequently by prospective customers to see if FME was right for their needs. Unfortunately, the transformer pages did not display enough information about compatibility with FME, and they were not in the same style as the rest of the site.</p>
           <figure>
             <img src="http://placehold.it/500x350/" alt="Transformer Gallery Initial">
-            <figcaption>The Transformer Gallery before the re-design. It caused several false positives and negative to be submitted.</figcaption>
+            <figcaption>The Transformer Gallery before the re-design. It lacked clear navigation, and didn't present enough information to the user.</figcaption>
           </figure>
           <h2>Process & Design Decisions</h2>
           <p>Initially I took a somewhat radical approach to the redesign by suggesting a sidebar interface that allowed search and navigation functionality. However, this was determined to be too different from the rest of the site’s styling. Eventually, the design settled on a similar but more focused visual hierarchy that allowed the user to find more information about a transformer in a consistent and easily visible location.</p>
@@ -88,10 +90,31 @@
             <img src="http://placehold.it/500x350/" alt="Transformer Gallery Process">
             <figcaption>Initial sketches for possible layouts of the re-designed transformer gallery.</figcaption>
           </figure>
-          <h2>Process & Design Decisions</h2>
-          <p>Initially I took a somewhat radical approach to the redesign by suggesting a sidebar interface that allowed search and navigation functionality. However, this was determined to be too different from the rest of the site’s styling. Eventually, the design settled on a similar but more focused visual hierarchy that allowed the user to find more information about a transformer in a consistent and easily visible location.</p>
           <h2>Result</h2>
           <p>This new design gave the user more information including version compatibility and additional information regarding related transformers and topics.</p>
+
+          <h2>Project 2: Customer Survey</h2>
+          <figure>
+            <img src="http://placehold.it/500x350/" alt="Survey Page Final">
+            <figcaption>Customer Survey after the re-design</figcaption>
+          </figure>
+          <h2>Issue</h2>
+          <p>This survey was designed to get feedback on how the user felt about their support experience. It was designed to be simple and quick to fill out and was sent to the user immediately after their support ticket was closed. The issue was that the survey was getting getting mixed results in some instances (ie: Positive comments with negative and dissatisfied ratings). The goal of the redesign was to eliminate these inconsistencies so that the user always selected the rating that they felt represented their experience best.</p>
+          <p>The main constraint was that the redesign had to be fully implemented in CSS. Due to the survey being constructed by Salesforce it was not feasible to change the survey’s HTML.</p>
+          <figure>
+            <img src="http://placehold.it/500x350/" alt="Survey Page Initial">
+            <figcaption>The Survey Page before the re-design. It caused several false positives and negative to be submitted.</figcaption>
+          </figure>
+          <h2>Process & Design Decisions</h2>
+          <p>I began the redesign by sketching out different ways of representing the available options. The emoji representation was settled on due to its lack of reliance on language, this was especially important as the respondents to the survey often had English as a second language. Secondly, the emojis were coloured using the Safe Software colour swatches. Using the greens, yellows, reds, and oranges to differentiate between positive and negative ratings.</p>
+
+          <p>The next most important factor was general readability and responsiveness. The font size was increased across the board and a clearer definition of hierarchy was implemented to better guide the user’s eyes through the page. To add responsiveness the page content was centred and width values were changed to percentage values to allow a good experience across all devices.</p>
+          <figure>
+            <img src="http://placehold.it/500x350/" alt="Survey Page Process">
+            <figcaption>Early process version of the the Survey</figcaption>
+          </figure>
+          <h2>Result</h2>
+          <p>Once the new survey was deployed the Customer Support department reported zero mixed results in the two months following as well as an uptick in amount of surveys completed with the new layout implemented.</p>
         </section>
       </div>
 
