@@ -1,3 +1,5 @@
+/*  FADE IN ANIMATION   */
+
 @keyframes fadein {
   from {
           opacity: 0;
@@ -57,6 +59,68 @@
        }
 }
 
+
+/*  FADE OUT ANIMATION   */
+
+@keyframes fadeout {
+  from {
+          opacity: 1;
+
+         }
+  to   {
+          opacity: 0;
+
+         }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeout {
+  from {
+        opacity: 1;
+
+       }
+  to   {
+        opacity: 0;
+
+       }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeout {
+  from {
+        opacity: 1;
+
+       }
+  to   {
+        opacity: 0;
+
+       }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeout {
+  from {
+        opacity: 1;
+
+       }
+  to   {
+        opacity: 0;
+
+       }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadeout {
+  from {
+        opacity: 1;
+
+       }
+  to   {
+        opacity: 0;
+
+       }
+}
+
 .content section{
   opacity:0;
 }
@@ -70,5 +134,5 @@
 }
 
 .content section:nth-child(2){
-  animation-delay:0.5s;
+  animation-delay:0.2s;
 }
