@@ -72,11 +72,15 @@ nav li p{
   vertical-align: text-bottom;
 }
 
-nav li i{
+.material-icons.resume, .material-icons.email{
+  padding-left:5px;
+}
+
+nav li i, nav h2 i{
   transition:padding .3s;
 }
 
-nav li:hover i{
+nav li:hover i, nav h2:hover i{
   padding-left:5px;
   transition:padding .3s;
 }
@@ -122,5 +126,12 @@ section.main-content{
     max-width:31.25rem;
     max-height:100vh;
 
+  }
+}
+
+@media(max-height: 40.625em) and (min-width: 68.75em){
+
+  .side-menu{
+    position:relative;
   }
 }
