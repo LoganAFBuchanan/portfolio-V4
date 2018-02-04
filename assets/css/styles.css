@@ -98,7 +98,7 @@ figcaption{
   font-size:0.8rem;
 }
 
-.content p{
+.content p, .content li{
   line-height:1.5rem;
   max-width:31.25rem;
 }
@@ -110,6 +110,19 @@ figcaption{
 .content h1{
   margin-bottom:.5rem;
   line-height:1;
+}
+
+.button {
+  font-family: 'Slabo 13px', serif;
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  border: solid 1.5px #333333;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+li.selected{
+/*  border-right:solid 0.5rem; */
 }
 
 section.main-content{
