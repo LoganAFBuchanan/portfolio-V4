@@ -9,7 +9,11 @@ h1, h2, h3, h4{
 }
 
 h1{
-  font-size: 2.5rem;
+  font-size: 2.8rem;
+}
+
+h2{
+  font-size:1.7rem;
 }
 
 a {
@@ -53,7 +57,7 @@ nav ul{
   padding-left:0;
 }
 
-nav li}{
+nav li{
   margin:1rem;
 }
 
@@ -121,18 +125,20 @@ figcaption{
   margin-top: 1rem;
 }
 
-li.selected{
-/*  border-right:solid 0.5rem; */
-}
 
 section.main-content{
   max-width: 40.625rem;
 }
 
+
+#metanav
+{
+  display:none;
+}
+
+
 @media(min-width: 68.75em){
-  .content h1{
-    margin-top:0;
-  }
+  
 
   .side-menu{
     position:fixed;
@@ -140,6 +146,42 @@ section.main-content{
     max-height:100vh;
 
   }
+
+  /* MetaNav Styles START */
+
+#metanav{
+  max-width: 500px;
+    display: block;
+    position: fixed;
+    margin-left: -136px;
+    margin-right: auto;
+    bottom: 15px;
+    left: 50%;
+    text-align: center;
+}
+
+#metanav img{
+  max-width:1.5rem;
+  opacity:0.5;
+}
+
+#metanav img:hover{
+  opacity:1;
+}
+
+#metanav ul{
+  list-style-type:none;
+  padding-left:0;
+  margin-bottom:0;
+}
+
+#metanav li{
+  display:inline-block;
+  line-height:0;
+  padding: 0 2rem;
+}
+
+/* MetaNav Styles END */
 }
 
 @media(max-height: 40.625em) and (min-width: 68.75em){
