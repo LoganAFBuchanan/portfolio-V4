@@ -104,7 +104,7 @@ figcaption{
 
 .content p, .content li{
   line-height:1.5rem;
-  max-width:31.25rem;
+  max-width:33.25rem;
 }
 
 .content .quick-info p{
@@ -125,9 +125,27 @@ figcaption{
   margin-top: 1rem;
 }
 
+h2 .button {
+  font-size: 1rem;
+    margin-left: 1rem;
+    font-family: 'Slabo 13px', serif;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    color:#a3a3a3;
+    border: solid 1.5px #a3a3a3;
+    display: inline-block;
+    margin-top: 0;
+    vertical-align: text-top;
+}
+
+h2 .button:hover{
+  color:#333333;
+  border: solid 1.5px #333333;
+}
+
 
 section.main-content{
-  max-width: 40.625rem;
+  max-width: 45.625rem;
 }
 
 
@@ -138,7 +156,7 @@ section.main-content{
 
 
 @media(min-width: 68.75em){
-  
+
 
   .side-menu{
     position:fixed;

@@ -31,7 +31,7 @@
           </header>
           <nav>
             <h2>Game Design & Development</h2>
-            
+
             <ul>
               <!-- COMING SOON
               <a href="#">
@@ -48,10 +48,10 @@
                   </a>
                 </li>
                 <li>
-                  
+
                     <h3>The Furrow<i class="material-icons">&#xE315;</i></h3>
                     <p>Game Designer & Programmer | Senior Academic Project<br>Jan. 2018 - Present</p>
-                  
+
                 </li>
                 <li>
                   <a href="slaw.html#content">
@@ -65,7 +65,7 @@
                     <p>Game Designer & Programmer | Game Jam<br>Summer 2015</p>
                   </a>
                 </li>
-                
+
             </ul>
 
             <h2>Other Things</h2>
@@ -111,24 +111,62 @@
           <p>
             <strong>Role:</strong> Systems Designer, Programmer</br>
             <strong>Team Members:</strong> Juliana Loughin, Quinn MacDonald</br>
-            <strong>Duration:</strong> January 2018 - Present</br>
+            <strong>Mentor:</strong> Jason Procyk</br>
+            <strong>Duration:</strong> January 2019 – April 2019</br>
             <strong>Tools:</strong> Unity 3D (C#)</br>
           </p>
         </section>
         <section class="main-content">
           <figure>
-            <img src="assets\img\furrow-banner.jpg" alt="Furrow Title Banner">
-            
+            <iframe width="100%" height="415" src="https://www.youtube.com/embed/miDPnSCgVU0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
           </figure>
-          <h2>Overview</h2>
-          <p>The Furrow is a turn based tactical rogue-like game in the style of FTL and Slay the Spire with an emphasis on telling a personal story about the travelers who brave its challenges. </p>
+          <h2>Game Summary</h2>
+          <p>The Furrow is a turn-based tactical rogue-like game in the style of FTL and Slay the Spire with an emphasis on telling a personal story about the travelers who brave the challenges of the eponymous valley. Players take on the role of two adventurers who meet each other at the entrance to The Furrow and agree to travel together as a safety measure. This was the graduation project for my degree in Interactive Arts & Technology at Simon Fraser University, I was the systems & mechanics designer as well as the sole programmer and project manager on the project, weekly updates were logged in a public blog which can be found at <a href="http://www.thefurrowgame.com" target="_blank">www.thefurrowgame.com</a>.</p>
 
-          <p>This is my graduation project for my BSc in Interactive Arts & Technology from SFU. I am the projects Systems & Mechanics Designer as well as the sole programmer. My primary work at this point has been mechanic design, below you can find links to several of the design documents for the various systems in the game. We are still in the prototyping phase, but if you’re interested in weekly updates on our progress please visit <a href="http://www.thefurrowgame.com" target="_blank">www.thefurrowgame.com</a>.</p>
+          <a href="assets\img\furrow-map.png" target="_blank"><img src="assets\img\furrow-map.png" alt="The overworld map from The Furrow"></a>
 
-          <a class="button" href="assets\pdf\Combat-Initial-Design.pdf" target="_blank">Combat Design</a>
-          <a class="button" href="assets\pdf\Overworld-Camp-Initial-Design.pdf" target="_blank">Overworld Design</a>
-          <a class="button" href="assets\pdf\Encounter-Framework.pdf" target="_blank">Encounter Framework</a>
-          <a class="button" href="assets\pdf\Bond-Initial-Design.pdf" target="_blank">Bond/Experience Design</a>
+          <h2>Overworld <a class="button" href="assets\pdf\Overworld-Camp-Initial-Design.pdf" target="_blank">Overworld Design Document</a></h2>
+          <p>The core loop of The Furrow consists of three modes: Overworld, Combat, and Camp. The overworld serves as the place where players make macro decisions about their progress through the world. The map is broken up into encounter nodes that, when visited, ask the player to make narrative choices for a variety of strange and mysterious encounters. We took inspiration from FTL’s map system for this mode, and then expanded it to have a more narrative flair. We did this by making encounters slightly more verbose/detailed as well as creating a framework that allowed much more complex decision trees to occur within them. You can read the full encounter framework in the design doc below.</p>
+
+          <a class="button" href="assets\pdf\Encounter-Framework.pdf" target="_blank" style="margin-bottom: 1rem;">Encounter Framework</a>
+
+          <a href="assets\img\furrow-combat.png" target="_blank"><img src="assets\img\furrow-combat.png" alt="The COmbat mode of The Furrow"></a>
+
+          <h2>Combat <a class="button" href="assets\pdf\Combat-Initial-Design.pdf" target="_blank">Combat Design Document</a></h2>
+          <p>The combat mode was designed to create tension for the player through tactical combat and provide a tangible gameplay connection for the consequences of overworld decisions. The primary inspirations for this mode were the Mega Man Battle Network games. To build upon their designs we expanded the grid and committed to a turn-based style to make combat less frantic and encourage tactical decision making. Additionally, we designed our enemy types to mesh well mechanically if scrambled into diverse groupings. We designed a combination of Aggressive, Supportive, and Swarming enemies that address each other’s weaknesses if arranged appropriately.</p>
+
+          <a href="assets\img\furrow-enemies.PNG" target="_blank"><img src="assets\img\furrow-enemies.PNG" alt="A selection of enemies with descriptor tags from The Furrow"></a>
+
+          <h2>Camp <a class="button" href="assets\pdf\Bond-Initial-Design.pdf" target="_blank">Bond/Experience Design Document</a></h2>
+          <p>Lastly, the camp scene was where all our core narrative beats occurred between the main characters. Here players can choose to hunt for food, heal their wounds, or have the characters bond with one another to learn more about their backstories and grow their skills through mutual understanding. Each of these choices gave the player strong benefits but is balanced against a creeping darkness that pushes the player northward on the world map. When camping, this darkness grows at an alarming rate.</p>
+
+          <h2>Process</h2>
+          <p>A primary goal of this project was to understand the process of professional game design and development on a more minor scale with a small team. To do this each team member researched the methods that professionals in their field use in their respective roles. The methods that I explored as a designer were the detailed design documents shown earlier, a more structured approach to prototyping, and the development and growth of team communication through structured production meetings.</p>
+
+          <p>The most beneficial tool by far was having detailed and succinct design documentation. On previous projects, getting everyone on the same page in relation to the vision/gameplay of the project was always a difficult problem that would usually create issues later in development. On The Furrow, by creating understandable and concrete documentation up-front, everyone on the team was able to stay on track and work more efficiently.</p>
+
+          <p>As for prototypes, I was used to creating some rough prototypes for all my previous projects; however, on The Furrow I experimented with two different kinds of prototypes so that I could compare and contrast their effectiveness as design tools. First, I created a card-based paper prototype of our overworld mode. This proved to be an invaluable tool that worked as a proof of concept as well as a key balancing framework for our ration/darkness mechanics.</p>
+
+          <a href="assets\img\furrow-paper.jpg" target="_blank"><img src="assets\img\furrow-paper.jpg" alt="Testing a paper prototype of the overworld with a play tester"></a>
+
+          <p>Next, I created a grey boxed digital prototype for our combat system so that I could not only test our systems but also get a bit of a head start on implementation. This proved to be a bit of a double edge sword in practice. While it did serve as a capable solution to speeding up development, it ended up creating a fair bit of technical debt that negatively affected our ability to adjust the design of the game. Next time I will start with a stripped down paper prototype before moving into digital, or I’ll make sure I have the technical knowledge needed to properly build the system from the beginning.</p>
+
+          <a href="assets\img\furrow-greybox.gif" target="_blank"><img src="assets\img\furrow-greybox.gif" alt="Grey boxed early prototype of the combat system of The Furrow"></a>
+
+          <p>Lastly, on suggestion from our mentor Jason Procyk, we held weekly production meetings to make sure we stayed on track and on schedule. These grew across development from simple sprint meetings into more in-depth scope meetings that were focused on cutting what wasn’t feasible. An important tool which we utilized heavily near the end of development was the Risk Assessment Sheet.</p>
+
+          <a href="assets\img\furrow-risk.png" target="_blank"><img src="assets\img\furrow-risk.png" alt="Portsion of the risk assesment sheet for The Furrow"></a>
+
+          <p>This consisted of writing down every unfinished system/feature in the game and assigning a risk factor to it for if it wasn’t completed by the end of the project deadline. If the risk factor was high, we would brainstorm mitigation strategies to avoid it not getting completed. Without this tool, we would have been swamped for the last few weeks of development, and I have no doubt in my mind that the final game would have been much worse as a result.</p>
+
+          <h2>Result</h2>
+          <p>In the end, The Furrow stands as a strong proof of concept for a game which could grow in a myriad of interesting directions. As a design study I learn an incredible variety of design lessons surrounding game balancing, prototyping, production, and much more. Soon the game will be up and playable on Itch.io and you can follow any updates <a href="https://twitter.com/TheFurrowGame?lang=en" traget="_blank">@TheFurrowGame</a>.</p>
+
+
+
+
+
 
         </section>
       </div>
