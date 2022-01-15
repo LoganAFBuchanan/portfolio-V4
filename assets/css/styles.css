@@ -65,6 +65,14 @@ nav li{
 nav li h3{
   margin-bottom:0;
   color: #333333;
+  transition-duration: 0.3s;
+}
+
+nav li:hover h3{
+  margin-bottom:0;
+  color: #1ba8f0;
+  transition-property: color;
+  transition-duration: 0.3s;
 }
 
 nav li p{
