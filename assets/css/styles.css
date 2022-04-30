@@ -113,7 +113,7 @@ figcaption{
 
 .content p, .content li{
   line-height:1.5rem;
-  max-width:33.25rem;
+  /* max-width:33.25rem; */ /* Removed due to wierd line length inconsistency, What was I thinking with this? */
 }
 
 .content .quick-info p{
